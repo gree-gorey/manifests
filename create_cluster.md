@@ -4,6 +4,10 @@ Install `kubectl`, a CLI for Kubernetes:
 ```console
 $ gcloud components install kubectl
 ```
+or:
+```console
+$ sudo apt-get install kubectl
+```
 
 Create a Google Kubernetes Engine cluster and make sure `kubectl` is pointing to the cluster:
 ```console

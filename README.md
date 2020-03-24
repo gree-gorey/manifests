@@ -2,7 +2,8 @@
 
 To apply manifests:
 ```console
-$ kubectl apply ./
+$ kubectl apply ./deployment.yaml
+$ kubectl apply ./service.yaml
 ```
 
 It will create `Deployment` object, as well as a `Service` with an external IP address.  
